@@ -11,7 +11,7 @@ export const names =[
     {name: 'ROJINA GHIMIRE"', code: 'RG'},
     {name: 'ROSY DAHAL', code: 'RD'},
     {name: 'SABINA ADHIKARI', code: 'SA'},
-    {name: 'SADAN BHATTARAI"', code: 'SB'},
+    {name: 'SADAN BHATTARAI', code: 'SB'},
     {name: 'SAMEER RAJ JOSHI', code: 'SRJ'},
     {name: 'SAMIR KATTEL', code: 'SK'},
     {name: 'SANDESH BHETWAL', code: 'SB'},

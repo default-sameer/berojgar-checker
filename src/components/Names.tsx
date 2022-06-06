@@ -1,5 +1,5 @@
 import React from 'react'
-import { names } from '../lib/names';
+import { names } from '@/lib/names';
 import { useRouter } from 'next/router';
 import toast from 'react-hot-toast';
 
@@ -29,7 +29,7 @@ const Names = () => {
             label="Friends"
             placeholder="Search Friends?"
             suggestions={allFriends}
-            notFound="No suggestions available!"
+            notFound="No Friends available!"
           />
           <button type='submit' className='relative inline-block group focus:outline-none' onClick={handleSubmit}>
             <span className="absolute inset-0 transition-transform translate-x-0 translate-y-0 bg-yellow-400 group-hover:translate-y-1.5 group-hover:translate-x-1.5"></span>
@@ -50,8 +50,8 @@ const style = {
   container: `relative mb-6 mt-3`,
   default: `rounded-lg w-full flex-1 mt-1 py-1.5 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:border-transparent border border-gray-300`,
   suggestion: {
-    activeItem: 'bg-gray-300',
-    item: `px-4 py-3 focus text-sm text-gray-700 cursor-pointer hover:bg-gray-200`,
+    activeItem: 'bg-yellow-300',
+    item: `px-4 py-3 focus text-sm text-black cursor-pointer hover:bg-gray-200`,
     list: `shadow-xl absolute top-full left-0 right-0 border w-auto md:max-w-full overflow-y-auto max-h-80 mt-2 bg-white p-3 z-20`,
   },
 };

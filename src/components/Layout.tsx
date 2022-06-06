@@ -1,6 +1,6 @@
 import React from 'react'
-import Footer from './Footer'
-import NavBar from './NavBar'
+import NavBar from '@/components/NavBar'
+import Footer from '@/components/Footer'
 import  {Toaster} from 'react-hot-toast'
 
 

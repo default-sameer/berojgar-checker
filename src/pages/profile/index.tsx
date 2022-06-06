@@ -1,5 +1,5 @@
 import React from 'react'
-import Names from '../../components/Names'
+import Names from '@/components/Names'
 import { NextSeo } from 'next-seo'
 
 const Profilepage = () => {
