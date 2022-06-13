@@ -11,10 +11,10 @@ interface Props{
 const Layout = ({children}: Props) => {
   return (
     <>
-    <div className='flex flex-col h-screen'>
+    <div className='flex flex-col h-screen font-pt'>
         <Toaster />
         <NavBar />
-        <main className='grow flex justify-center items-center text-white'> 
+        <main className='grow flex'> 
           {children} 
         </main>
         <Footer />

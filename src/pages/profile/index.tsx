@@ -1,16 +1,19 @@
 import React from 'react'
-import Names from '@/components/Names'
+
 import { NextSeo } from 'next-seo'
 
-const Profilepage = () => {
+
+const Profilepage  = () => {
   return (
     <>
       <NextSeo title='Profile' description='Profile | Berojgar Checker' />
-        <div>
-            <Names />
+        <div className='flex justify-center items-center mx-auto'>
+           
+            
         </div>
     </>
   )
 }
+
 
 export default Profilepage

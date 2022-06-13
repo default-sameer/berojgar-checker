@@ -9,3 +9,13 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+
+model Friends{
+  id                  String   @id @default(cuid())
+  name                String
+  jobStatus           String
+  image               String?
+  createdAt           DateTime @default(now())  
+  updatedAt           DateTime @default(now())
+}

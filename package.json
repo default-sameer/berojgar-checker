@@ -8,13 +8,20 @@
     "start": "next start"
   },
   "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "@supabase/supabase-js": "^1.35.3",
+    "@supabase/ui": "^0.36.5",
+    "@tailwindcss/forms": "^0.5.2",
     "axios": "^0.27.2",
+    "base64-arraybuffer": "^1.0.2",
     "daisyui": "^2.15.2",
     "hamburger-react": "^2.5.0",
+    "nanoid": "^3.3.4",
     "next": "latest",
     "next-seo": "^5.4.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hook-form": "^7.31.3",
     "react-hot-toast": "^2.2.0",
     "react-icons": "^4.4.0"
   },
